@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: practica28
+  namespace: wave2
 spec:
   replicas: 4
   selector: 
