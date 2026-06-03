@@ -5,14 +5,14 @@ metadata:
   namespace: wave2
 spec:
   replicas: 4
-  selector: 
-    matchLabels: 
+  selector:
+    matchLabels:
       app: myapp
   template:
-    metadata: 
+    metadata:
       labels:
         app: myapp
-      spec:
-        containers:
-          - name: nginx
-            image: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
